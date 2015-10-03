@@ -1,0 +1,35 @@
+.pageintro {
+	position: relative;
+	background: red;
+	padding-top: 350vh;
+}
+
+.pageintro .textwrapper {
+	position: fixed;
+	width: 200%;
+	top: 50%;
+	left: 0;
+	-ms-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.pageintro .textwrapper h1, .pageintro .textwrapper h2 {
+	font-family: "bignoodletitlingregular";
+	font-size: 35vw;
+	line-height: 1;
+	color: #fff;
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.pageintro .textwrapper h2 {
+	font-size: 16.5vw;
+	margin: 0;
+}
+
+.pageintro .textwrapper h2 span {
+	display: block;
+	font-size: 16vw;
+	margin-top: -3vw;
+}
